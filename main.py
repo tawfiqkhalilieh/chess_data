@@ -17,7 +17,7 @@ def data_writer(board, game_number):
         f.write(long_string)
 
 
-count = 347
+count = 1 # for now you should update this manually
 
 while True:
     board = chess.Board()
